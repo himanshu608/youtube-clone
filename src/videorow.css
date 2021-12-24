@@ -1,0 +1,40 @@
+.videorow{
+    display:flex;
+    align-items:center;
+    padding: 10px;
+}
+
+.videorow img{
+    object-fit: contain;
+    width: 20vw;
+    border-radius:5px;
+}
+
+.videorow_text{
+    padding: 10px;
+    margin-left: 30px;
+    color: grey;
+    font-weight: 100;
+}
+.videorow_text h2{
+    color: black;
+    font-weight:bold;
+}
+.videorow_text section{
+    display:inline;
+}
+
+.channelinfo{
+    display: flex;
+    align-items:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.videorow_text h5{
+    max-width:300px;
+    margin-left: 20px;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+}

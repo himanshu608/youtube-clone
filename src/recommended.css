@@ -1,0 +1,16 @@
+.recommended{
+    display: flex;
+    flex:0.85;
+    background-color:rgb(238, 238, 238);
+    padding:20px;
+    flex-direction: column;
+}
+
+.recommeded_videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recommended h2{
+    padding:5px;
+}

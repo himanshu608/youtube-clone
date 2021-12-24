@@ -1,0 +1,15 @@
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    flex:0.15;
+    margin-top: 10px;
+}
+
+.sidebar hr{
+    margin-top:10px;
+    margin-bottom:5px;
+    border: 0;
+    height: 1.5px;
+    background-color: rgb(204, 204, 204);
+    width:96%;
+}
